@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+function Home() {
   return (
     <div>
-      <h2>Hello! This is BalaSarvan</h2>
-      <Button>Hire Me!</Button>
+      
     </div>
-  );
+  )
 }
+
+export default Home
